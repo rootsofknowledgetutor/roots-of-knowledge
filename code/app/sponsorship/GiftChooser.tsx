@@ -28,8 +28,8 @@ const onceAmounts: Amount[] = [
 ];
 
 const monthlyAmounts: Amount[] = [
-  { id: "35", label: "$35 / mo", desc: "sponsors one child", impact: "sponsors one child’s reading journey, every month" },
-  { id: "70", label: "$70 / mo", desc: "sponsors two children", impact: "sponsors two children’s reading journeys, every month" },
+  { id: "30", label: "$30 / mo", desc: "sponsors one child", impact: "sponsors one child’s reading journey, every month" },
+  { id: "60", label: "$60 / mo", desc: "sponsors two children", impact: "sponsors two children’s reading journeys, every month" },
   { id: "other", label: "Other", desc: "sponsor monthly", impact: "Sponsor any amount each month — steady support keeps our sessions running." },
 ];
 
