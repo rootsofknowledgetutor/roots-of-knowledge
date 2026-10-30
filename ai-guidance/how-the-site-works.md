@@ -101,6 +101,17 @@ There is **no staging step**. A push is a publish.
 - `roots-of-knowledge.pages.dev` is the preview site;
   `roots-of-knowledge.com` is live.
 
+## Domain and email
+
+- The domain `roots-of-knowledge.com` is **registered at WordPress.com**. Its
+  **DNS is managed in Cloudflare**, where the apex and `www` point at the
+  Cloudflare Pages project.
+- The business email on the domain is hosted by **Titan**. Its mail records
+  (MX, SPF, DKIM, DMARC) live in the **same Cloudflare DNS**.
+- **Do not edit or delete DNS records** while working on the site. Website
+  changes never require touching DNS, and removing the mail records stops
+  email from arriving.
+
 ## Known gotchas
 
 - **Turbopack can serve a stale stylesheet.** Edits to `globals.css` sometimes
@@ -117,7 +128,10 @@ There is **no staging step**. A push is a publish.
 ## Not yet built
 
 - The payment buttons (card, Cash App, Venmo, PayPal, Square) all open a
-  "coming soon" modal. None are wired to a real destination.
+  "coming soon" modal. None are wired to a real destination. **This is
+  deliberate and approved by the owner** — the modal points visitors to Zelle
+  and mailed check, which work. Don't hide or "fix" these; wire one up only
+  when the owner supplies the real account details.
 - `og:image` is not set, so links shared to social media or text message
   preview without an image.
 - Enroll, Impact, and Volunteer need full designs.

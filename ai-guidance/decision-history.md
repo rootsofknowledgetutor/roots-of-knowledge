@@ -9,6 +9,16 @@ statement of current site content. Where it conflicts with
 
 ---
 
+## 2026-07-26 — Live domain moved to Cloudflare
+
+`roots-of-knowledge.com` (and `www`) now serves this site from Cloudflare
+Pages, replacing the old WordPress.com site. DNS moved to Cloudflare; the
+domain registration stayed at WordPress.com. The existing email records were
+carried across before the switch, and email kept working.
+
+The owner reviewed the site at this point and asked that it be left as it is,
+including the "coming soon" behavior of the payment buttons.
+
 ## 2026-07-26 — Repository restructured for handoff
 
 Split into `code/` (only what builds and deploys) and `ai-guidance/`
