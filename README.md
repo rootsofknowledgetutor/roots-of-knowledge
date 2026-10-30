@@ -5,7 +5,7 @@ a K–5 reading tutoring service serving underserved communities across Los
 Angeles County.
 
 - Live site: **https://roots-of-knowledge.com**
-- Preview site: **https://roots-of-knowledge.pages.dev**
+- Preview site: **https://roots-of-knowledge-site.pages.dev**
 
 ## How this website works
 

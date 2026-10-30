@@ -98,7 +98,7 @@ There is **no staging step**. A push is a publish.
   change before it goes live.
 - **Rollback:** Cloudflare → Deployments → Rollback. Fast, and the right first
   move if something breaks.
-- `roots-of-knowledge.pages.dev` is the preview site;
+- `roots-of-knowledge-site.pages.dev` is the preview site;
   `roots-of-knowledge.com` is live.
 
 ## Domain and email
