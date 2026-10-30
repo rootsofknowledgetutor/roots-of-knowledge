@@ -4,10 +4,9 @@ Carol Bluee's founding brief for the website: the page-by-page plan and the
 original wording for mission, vision, values, the founder story, and the
 program description. Much of the live site's copy traces back to this document.
 
-**Provenance.** Converted from `docs/website-design.docx` (the folder is now `ai-guidance/source-material/`) on 2026-07-26. That
-`.docx` was removed from the repo and its git history because it contained live
-WordPress and Pexels passwords in plain text. This markdown version is the
-content, with the credentials stripped — it is the only copy that remains.
+**Provenance.** Converted on 2026-07-26 from Carol's original Word document.
+This markdown version is the copy kept in the repo. Her other source documents
+are in `ai-guidance/source-material/`.
 
 **Note the drift.** This brief predates two of Carol's decisions, so it does NOT
 match the current site and must not be treated as the style guide:
@@ -122,11 +121,8 @@ resources that extend learning beyond tutoring sessions and into the home.
 
 ---
 
-## Accounts referenced in the original (credentials removed)
+## Accounts referenced in the original
 
 - **WordPress.com** — https://wordpress.com
 - **Pexels** (website photography) — https://www.pexels.com, under Carol's
   personal email
-
-Passwords are deliberately omitted. They belong in a password manager, never in
-a file that gets committed.

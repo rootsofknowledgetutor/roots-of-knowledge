@@ -51,6 +51,8 @@ owner, and breaking them creates a legal or trust problem.
 - Section eyebrow labels come from **`code/lib/typography.ts`**. Import it;
   never redeclare the style locally (it used to be copy-pasted into six files
   and silently drifted apart).
+- The payment buttons on `/sponsorship` that open a "coming soon" modal are
+  **deliberate and owner-approved**. Don't hide or rewire them unless asked.
 - This version of Next.js may differ from your training data. Check
   `node_modules/next/dist/docs/` before using an unfamiliar API.
 
@@ -64,3 +66,5 @@ staging step** — a push is a publish.
 - Undo a bad deploy: Cloudflare → Deployments → **Rollback**.
 - `roots-of-knowledge.pages.dev` is the preview site.
   `roots-of-knowledge.com` is the live one.
+- **Never edit or delete DNS records in Cloudflare.** They also carry the
+  domain's business email. Website changes never need DNS.
