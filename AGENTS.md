@@ -64,7 +64,7 @@ staging step** — a push is a publish.
 - Work on a **branch** and open a pull request. Cloudflare builds a preview URL
   per branch so changes can be reviewed before going live.
 - Undo a bad deploy: Cloudflare → Deployments → **Rollback**.
-- `roots-of-knowledge.pages.dev` is the preview site.
+- `roots-of-knowledge-site.pages.dev` is the preview site.
   `roots-of-knowledge.com` is the live one.
 - **Never edit or delete DNS records in Cloudflare.** They also carry the
   domain's business email. Website changes never need DNS.

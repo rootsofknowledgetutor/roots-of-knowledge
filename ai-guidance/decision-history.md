@@ -9,6 +9,16 @@ statement of current site content. Where it conflicts with
 
 ---
 
+## 2026-10-30 — Repository handed over to the owner
+
+The repository moved from the developer's personal GitHub account to the
+owner's own account, `rootsofknowledgetutor`. Cloudflare Pages cannot follow a
+transferred repository, so a new Pages project (`roots-of-knowledge-site`) was
+created from it with the same build settings, the custom domains were moved
+across, and the old project was deleted. The preview address changed to
+`roots-of-knowledge-site.pages.dev` as a result. The previous developer stays
+on the repository as a collaborator.
+
 ## 2026-07-26 — Live domain moved to Cloudflare
 
 `roots-of-knowledge.com` (and `www`) now serves this site from Cloudflare
